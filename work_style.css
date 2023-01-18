@@ -1,0 +1,211 @@
+/* 導覽列 */
+.navigation{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    background: #FFFFFF;
+}
+.nav-logo img{
+    width: 100px;
+    margin-top: 24px;
+    margin-left: 50%;
+}
+.navbar-nav{
+    display: flex;
+    margin: auto;
+    margin-right: 3%;
+}
+.navigation ul li{
+    display: inline;
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #F9C745;
+}
+.nav-link{
+    text-align: right;
+    margin-left: 48px;
+}
+.nav-button{
+    width: 176px; 
+    height: 40px; 
+    text-align: center; 
+    border-radius: 23px; 
+    background-color: #F9C745; 
+    margin-left: 50px; 
+    padding: 10px 20px; 
+}
+.nav-button:hover{
+    box-shadow:0px 3px 1px #000000;
+    color: black;
+}
+
+
+
+/* 區塊-作品 */
+.work{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.worklogo{
+    display: flex;
+    justify-content: center;
+}
+.worklogo img{
+    width: 20%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.coll{
+    width: 30%;
+    text-align: left;
+    font: normal normal normal 20px/32px Kalam;
+    color: #3A3A3A;
+    margin-left: 30px;
+}
+.coll a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font: normal normal normal 20px/32px Kalam;
+}
+.coll a:hover{
+    color: #F9C745;
+}
+.workpic{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.workpic img{
+    width: 33%;
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+.workpic img:hover{
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.8;opacity: 0.5;
+}
+/* 圖片上的字 寫不出來先跳 */
+/* .info{
+    opacity: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.info:hover{
+    opacity: 1;
+} */
+.workbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.workbutton a{
+    text-decoration: none;
+    color:#3A3A3A;
+    font-size: 18px;
+    width: 20%; 
+    height: 22px; 
+    text-align: center; 
+    border-radius: 23px;
+    padding: 10px 20px; 
+}
+.workbutton1{
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #3A3A3A;
+}
+.workbutton1:hover{
+    border-color: #F9C745;
+    background-color: #F9C745; 
+}
+.workbutton2{
+    background-color: #F9C745; 
+    margin-left: 24px; 
+}
+
+
+/* 頁尾 */
+.footer{
+    width: 100%;
+    border-style: solid none none none;
+    border-color: #F9C745;
+}
+.footerwhite{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.footereach{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footereach img{
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
+}
+.footertitle{
+    font-size: 20px;
+}
+.footerinfo{
+    font-size: 13px;
+}
+.col{
+    width: 100%;
+}
+.col a{
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 25px;
+    border-color: #3A3A3A;
+    text-decoration: none;
+    color:#3A3A3A;
+    font-size: 18px;
+    width: 30%; 
+    height: 22px; 
+    text-align: center; 
+    padding: 7px 40px; 
+}
+.col a:hover{
+    border-color: #F9C745;
+    background-color: #F9C745; 
+}
+.footergray{
+    background-color: #3A3A3A;
+    text-align: center;
+    padding: 30px;
+}
+.footergray span{
+    color: #FFFFFF;
+}
+
+
+/* 定點圖片 */
+.fixedpic{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* background: url('pic/btn.png'); */
+}
+.fixedpic:hover{
+    background: url('pic/btn.png');
+}
+
+.fixedpic img:hover{
+    opacity: 0;
+}
